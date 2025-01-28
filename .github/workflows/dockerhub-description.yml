@@ -19,8 +19,9 @@ jobs:
     - name: Docker Hub Description - ${{ matrix.release }}-${{ matrix.arch }}
       uses: peter-evans/dockerhub-description@v4.0.0
       with:
-        username: ${{ secrets.DOCKERHUB_USERNAME }}
-        password: ${{ secrets.DOCKERHUB_PAT }}
+        registry: ${{ env.REGISTRY }}
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
         repository: wmbusmeters/${{ matrix.release }}-${{ matrix.arch }}
         readme-filepath: ./docker_README.md
         short-description: "wmbusmeters Home Assistant add-on docker container"

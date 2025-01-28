@@ -9,7 +9,7 @@ The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other community-driven Home Assistant add-on.
 
 1. Navigate to Add-ons > Add-on Store > Repositories
-1. Add https://github.com/wmbusmeters/wmbusmeters-ha-addon
+1. Add https://github.com/kayl669/wmbusmeters-ha-addon
 1. Install Wmbusmeters
 1. Enable "Show in sidebar"
 1. Plug-in your radio receiver USB dongle
@@ -98,9 +98,9 @@ You have several options to get them answered:
 
 [Wmbusmeters contributors][contributors]
 
-[contributors]: https://github.com/wmbusmeters/wmbusmeters-ha-addon/graphs/contributors
+[contributors]: https://github.com/kayl669/wmbusmeters-ha-addon/graphs/contributors
 [forum]: https://community.home-assistant.io/c/home-assistant-os/25
-[github]: https://github.com/wmbusmeters/wmbusmeters-ha-addon
+[github]: https://github.com/kayl669/wmbusmeters-ha-addon
 [docs]: https://github.com/wmbusmeters/wmbusmeters
 [issue]: https://github.com/wmbusmeters/wmbusmeters/issues
 [reddit]: https://reddit.com/r/homeassistant

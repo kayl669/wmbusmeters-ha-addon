@@ -12,7 +12,7 @@ Stable - will contain wmbusmeters stable release combined with add-on changes on
 
 1. Manualy backup existing configs and uninstall wmbusmeters addon
 1. Navigate to Add-ons > Add-on Store > Repositories
-1. Remove https://github.com/weetmuts/wmbusmeters and add https://github.com/wmbusmeters/wmbusmeters-ha-addon
+1. Remove https://github.com/weetmuts/wmbusmeters and add https://github.com/kayl669/wmbusmeters-ha-addon
 1. Navigate to Add-ons > Add-on Store and press "Ctrl+R" or reload the page in another way
 1. Install wmbusmeters add-on
 1. Enable "Show in sidebar"
@@ -22,14 +22,14 @@ Stable - will contain wmbusmeters stable release combined with add-on changes on
 # Installation
 Simply click this button:
 
-[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fwmbusmeters%2Fwmbusmeters-ha-addon)
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fkayl669%2Fwmbusmeters-ha-addon)
 
 or to install manually simply add wmbusmeters Home Assistant Add-on repository:
 
 ```
-https://github.com/wmbusmeters/wmbusmeters-ha-addon
+https://github.com/kayl669/wmbusmeters-ha-addon
 ```
-Please refer to the wmbusmeters [documentation](https://github.com/wmbusmeters/wmbusmeters/blob/master/README.md) and add-on [documentation](https://github.com/wmbusmeters/wmbusmeters-ha-addon/blob/main/wmbusmeters-ha-addon-edge/DOCS.md) for detailed information on how to install and configure the Add-on.
+Please refer to the wmbusmeters [documentation](https://github.com/wmbusmeters/wmbusmeters/blob/master/README.md) and add-on [documentation](https://github.com/kayl669/wmbusmeters-ha-addon/blob/main/wmbusmeters-ha-addon-edge/DOCS.md) for detailed information on how to install and configure the Add-on.
 
 ## Issues
 Issues are being tracked centrally, so if you find any issues with the add-on, please check the [central issue tracker](https://github.com/wmbusmeters/wmbusmeters/issues) for similar issues and open new if needed. 
